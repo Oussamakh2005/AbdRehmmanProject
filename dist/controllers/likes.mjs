@@ -1,4 +1,4 @@
-import prisma from "../../lib/db.mjs";
+import prisma from "../lib/db.mjs";
 export const ToggleLike = async (req, res) => {
     try {
         const { postId, userId } = req.body;
